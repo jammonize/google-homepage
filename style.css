@@ -1,0 +1,111 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+.pagebody {
+    position: relative;
+    height: 80%;
+}
+
+.glogo {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.gbuttons {
+    position: absolute;
+    left: 50px;
+}
+#mic img {
+    position: relative;
+    height: 2.5%;
+    top: 50%;
+    float: right;
+}
+
+.searchbar input {
+    position: absolute;
+    width: 300px;
+    left: 15px;
+}
+
+#nav_top {
+    position: relative;
+    height: 20px;
+    padding: 20px;
+}
+
+#about {
+    position: absolute;
+    left: 30px;
+}
+
+#about a,
+#gmail a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+#about a:hover,
+#gmail a:hover {
+    text-decoration: underline;
+}
+
+#gmail {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+#gmail img {
+    width: 25px;
+    height: 25px;
+    padding: 0 5px;
+}
+
+#country {
+    position: relative;
+    padding: 0 10px;
+    background: #F2F2F2;
+    border: 1px solid #E4E4E4;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.foot2 {
+    position: relative;
+    padding: 0 10px;
+    height: 52px;
+    background: #F2F2F2;
+    border: 1px solid #E4E4E4;
+    font-size: small;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+#biz a,
+#privacy a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+#biz a:hover,
+#privacy a:hover {
+    text-decoration: underline;
+}
+
+#biz {
+    position: absolute;
+    top: 10%;
+}
+
+#privacy {
+    position: absolute;
+    top: 10%;
+    right: 30px;
+}
